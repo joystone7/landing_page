@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    font-family: 'roboto', sans-serif;
+    margin: auto;
+}
+
+.Main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Start-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.End-header {
+    display: flex;
+}
+
+.information {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 32px;
+}
+
+.title {
+    margin-bottom: 32px;
+}
+
+.Action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
