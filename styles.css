@@ -26,6 +26,7 @@ body {
     color: #F9FAF8;
     font-weight: bold;
     padding-left: 16px;
+    box-shadow: -5px -5px 8px blue, -10px -10px 8px red, -15px -15px 8px green inset;
 }
 
 .Header-links {
