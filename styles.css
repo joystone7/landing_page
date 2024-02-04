@@ -89,18 +89,41 @@ img {
 }
 
 .Action {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   padding: 100px 0;
+
+}
+
+.Action-again {
+  background-color: #3882F6;
+  display: flex;
+  gap: 400px;
+  padding: 60px 80px;
+  border: 1px hidden black;
+  border-radius: 8px;
+}
+
+.Within-action {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    background-color: #3882F6;
+    flex-direction: column;
+    color: white;
+}
+
+.action-call {
+    font-weight: bold;
+    font-size: 36px;
 }
 
 .Footer {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    padding: 40px 0; 
+    color: white;
 }
 
 .Quote {
@@ -130,12 +153,16 @@ p {
     color: white;
     font-weight: bold;
     font-size: 16px;
-    border: 1px hidden black;
     cursor: pointer;
-    padding: 8px 32px;
     border-radius: 8px;
 }
 
 .End {
     border: 2px solid white;
+    padding: 1px 32px;
+}
+
+.Begin {
+    padding: 8px 32px;
+    border: 1px hidden black;
 }
